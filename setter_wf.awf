@@ -1,0 +1,343 @@
+$WAVE4
+$RESOLUTION 1000
+$ENDTIME 3100000
+I 1 "e#9#std_logicc9 UX01ZWLH-"
+$IN 1 1 CLK
+$S 2 1 ES
+$S 3 1 EM
+$S 4 1 EH
+$S 5 1 ED
+$S 6 1 EL
+$S 7 1 EA
+$S 8 1 UP
+$S 9 1 DW
+I 2 "i#7#integerrict-2147483648 2147483647 "
+$INOUT +1 2 TS
+$INOUT +1 2 TM
+$INOUT +1 2 TH
+$INOUT +1 2 TD
+$INOUT +1 2 TL
+$INOUT +1 2 TA
+$S +1 1 start
+P 0 1-16 CS "0"
+P 0 1 Stimulator "CLK:FRM:Override:100.000000;2;1;0;50;1:Clock:1:"
+P 0 2 Stimulator "KEY:KEY:Override:49/0,1:1:1:"
+P 0 3 Stimulator "KEY:KEY:Override:50/0,1:2:1:"
+P 0 4 Stimulator "KEY:KEY:Override:51/0,1:3:1:"
+P 0 5 Stimulator "KEY:KEY:Override:52/0,1:4:1:"
+P 0 6 Stimulator "KEY:KEY:Override:53/0,1:5:1:"
+P 0 7 Stimulator "KEY:KEY:Override:54/0,1:6:1:"
+P 0 8 Stimulator "KEY:KEY:Override:88/0,1:X:1:"
+P 0 9 Stimulator "KEY:KEY:Override:90/0,1:Z:1:"
+$WAVES 1
+=0 T 0
+R 1 2 =1 T 50k
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+*1
+$VALUES
+V 3
+0
+1
+0
+V 2
+1
+0
+V 2
+1
+0
+V 2
+1
+0
+V 2
+1
+0
+V 2
+1
+0
+V 2
+1
+0
+V 2
+1
+0
+V 2
+1
+0
+V 2
+1
+0
+V 2
+1
+0
+V 2
+1
+0
+V 2
+1
+0
+V 2
+1
+0
+V 2
+1
+0
+V 2
+1
+0
+V 2
+1
+0
+V 2
+1
+0
+V 2
+1
+0
+V 2
+1
+0
+V 2
+1
+0
+V 2
+1
+0
+V 2
+1
+0
+V 2
+1
+0
+V 2
+1
+0
+V 2
+1
+0
+V 2
+1
+0
+V 2
+1
+0
+V 2
+1
+0
+V 2
+1
+0
+V 2
+1
+0
+$END
+$WAVES 2
+*0
+=2 D 600k 1
+=3 D 400k 1
+$VALUES
+V 1
+1
+V 1
+0
+V 1
+1
+$END
+$WAVES 3
+*0
+*2
+*2
+$VALUES
+V 1
+0
+V 1
+1
+V 1
+0
+$END
+$WAVES 4
+*0
+=4 D 1000k 1
+=5 D 200k 1
+$VALUES
+V 1
+0
+V 1
+1
+V 1
+0
+$END
+$WAVES 5
+*0
+*4
+*5
+$VALUES
+V 1
+0
+V 1
+1
+V 1
+0
+$END
+$WAVES 6
+*0
+*4
+*5
+$VALUES
+V 1
+0
+V 1
+1
+V 1
+0
+$END
+$WAVES 7
+*0
+=6 D 1100k 1
+=7 D 100k 1
+$VALUES
+V 1
+0
+V 1
+1
+V 1
+0
+$END
+$WAVES 8
+*0
+$VALUES
+V 1
+1
+$END
+$WAVES 9
+*0
+*4
+*5
+$VALUES
+V 1
+0
+V 1
+1
+V 1
+0
+$END
+$WAVES +7
+*0
+=8 D 1150k 1
+$VALUES
+V 1
+1
+V 1
+0
+$END
+$WAVES 10
+*0
+=9 D 50k 1
+*7
+*7
+*7
+*7
+*7
+$VALUES
+V 2
+0
+1
+V 1
+2
+V 1
+3
+V 1
+4
+V 1
+5
+V 1
+6
+$END
+$WAVES +1
+*0
+=10 D 650k 1
+*7
+*7
+*7
+$VALUES
+V 1
+0
+V 1
+1
+V 1
+2
+V 1
+3
+V 1
+4
+$END
+$WAVES +1
+*0
+$VALUES
+V 1
+0
+$END
+$WAVES +1-+2
+*0
+$VALUES
+V 1
+1
+$END
+$ENDWAVE
